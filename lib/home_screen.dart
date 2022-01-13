@@ -25,12 +25,12 @@ class _CekilisSayfaState extends State<CekilisSayfa> {
     purchaserInfo = await Purchases.getPurchaserInfo();
   }//fHzUrCzMXYGoQawVvkGbcjNyNnlDVdGa eskisi
 
-  Future<bool> userIsPremium() async {
+  /*Future<bool> userIsPremium() async {
     purchaserInfo = await Purchases.getPurchaserInfo();
-    return purchaserInfo.entitlements.all["google_weekly"] != null && 
-        purchaserInfo.entitlements.all["google_weekly"]!.isActive;
-  }
-//
+    return purchaserInfo.entitlements.all["cekilis2"] != null && //google_weekly
+        purchaserInfo.entitlements.all["cekilis2"]!.isActive;
+  }*/
+
   Future<void> showPaywall() async {
     Offerings offerings = await Purchases.getOfferings();
     if (offerings.current != null  && offerings.current!.weekly != null
@@ -41,7 +41,9 @@ class _CekilisSayfaState extends State<CekilisSayfa> {
           builder: (_) => AlertDialog(
                 title: Text(currentWeeklyProduct.description),
                 content: Row(
-                  children: [Text('Fiyat '+currentWeeklyProduct.priceString)],
+                  children: [
+                    Text('Fiyat '+ currentWeeklyProduct.priceString)
+                    ],
                 ),
                 actions: [
                   ElevatedButton(
@@ -57,7 +59,7 @@ class _CekilisSayfaState extends State<CekilisSayfa> {
   Future<void> makePurchases(Package package) async {
     try {
       purchaserInfo = await Purchases.purchasePackage(package);
-      print(purchaserInfo);
+      //Text('Satın alma başarılı');
     } on PlatformException catch (e) {
       var errorCode = PurchasesErrorHelper.getErrorCode(e);
       if (errorCode != PurchasesErrorCode.purchaseCancelledError) {
@@ -105,7 +107,21 @@ class _CekilisSayfaState extends State<CekilisSayfa> {
                cekilis_buton(Text ('18'), Colors.indigoAccent,),
                cekilis_buton(Text ('19'), Colors.teal,),
                cekilis_buton(Text ('20'), Colors.deepOrangeAccent,),
-
+               cekilis_buton(Text ('21'), Colors.red,),
+               cekilis_buton(Text ('22'), Colors.blue,),
+               cekilis_buton(Text ('23'), Colors.green,),
+               cekilis_buton(Text ('24'), Colors.lime,),
+               cekilis_buton(Text ('25'), Colors.purple,),
+               cekilis_buton(Text ('26'), Colors.grey,),
+               cekilis_buton(Text ('27'), Colors.brown,),
+               cekilis_buton(Text ('28'), Colors.cyan,),
+               cekilis_buton(Text ('29'), Colors.indigoAccent,),
+               cekilis_buton(Text ('30'), Colors.teal,),
+               cekilis_buton(Text ('31'), Colors.deepOrangeAccent,),
+               cekilis_buton(Text ('32'), Colors.lightBlueAccent,),
+               cekilis_buton(Text ('33'), Colors.red,),
+               cekilis_buton(Text ('34'), Colors.blue,),
+               cekilis_buton(Text ('35'), Colors.green,),
                 ],
                 
               ),
@@ -126,7 +142,7 @@ class _CekilisSayfaState extends State<CekilisSayfa> {
                   fixedSize: const Size(100, 60),
                   ),
               onPressed: () {
-                showPaywall();
+                showPaywall();       
               },
                label: text,
                icon: Icon(Icons.card_giftcard),
