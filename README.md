@@ -9,4 +9,4 @@ https://play.google.com/store/apps/details?id=com.cekilis.newappname&hl=tr&gl=US
 
 <img src="lib/assets/31f198f0-8554-41e3-a840-ddab24a2de7f.jpg" width="230">
 
-<img src="5e4a7e40-d5e3-477d-85e1-ccd2a1bb99e2.jpg" width="230">
+<img src="lib/assets/5e4a7e40-d5e3-477d-85e1-ccd2a1bb99e2.jpg" width="230">
