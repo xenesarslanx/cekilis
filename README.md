@@ -5,6 +5,7 @@
 *Para ödülü katılımcı sayısıyla doğru orantılı olup gelirin bir
 kısmını da ihtiyaç sahiplerine nakit para veya market hediye
 çekleriyle bağışlıyoruz!
+
 https://play.google.com/store/apps/details?id=com.cekilis.newappname&hl=tr&gl=US
 
 <img src="lib/assets/31f198f0-8554-41e3-a840-ddab24a2de7f.jpg" width="230">
