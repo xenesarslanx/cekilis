@@ -1,16 +1,13 @@
 # cekilis
 
-A new Flutter project.
+Çek Kazan:Çekilişe Katıl nedir?
+*Her hafta çekilişe katılabileceğiniz ve haftanın sonunda kazananı instagram adresimizden açıklayıp para ödülü dağıttığımız bir uygulamadır.
+*Para ödülü katılımcı sayısıyla doğru orantılı olup gelirin bir
+kısmını da ihtiyaç sahiplerine nakit para veya market hediye
+çekleriyle bağışlıyoruz!
 
-## Getting Started
+https://play.google.com/store/apps/details?id=com.cekilis.newappname&hl=tr&gl=US
 
-This project is a starting point for a Flutter application.
+<img src="lib/assets/31f198f0-8554-41e3-a840-ddab24a2de7f.jpg" width="230">
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="lib/assets/5e4a7e40-d5e3-477d-85e1-ccd2a1bb99e2.jpg" width="230">
